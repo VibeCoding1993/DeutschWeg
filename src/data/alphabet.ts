@@ -1,0 +1,36 @@
+/** Letter, how Germans name it (also the text we record), English-style hint, example word. */
+export const LETTERS: { l: string; name: string; say: string; word: string; en: string; tip?: string }[] = [
+  { l: 'A', name: 'A', say: 'ah', word: 'Apfel', en: 'apple' },
+  { l: 'B', name: 'Beh', say: 'beh', word: 'Ball', en: 'ball' },
+  { l: 'C', name: 'Zeh', say: 'tseh', word: 'Computer', en: 'computer', tip: 'Named "tseh" — careful, not "see".' },
+  { l: 'D', name: 'Deh', say: 'deh', word: 'Dose', en: 'tin, can' },
+  { l: 'E', name: 'Eh', say: 'eh', word: 'Esel', en: 'donkey', tip: 'Named "eh" — sounds like English A!' },
+  { l: 'F', name: 'Eff', say: 'eff', word: 'Fisch', en: 'fish' },
+  { l: 'G', name: 'Geh', say: 'geh', word: 'Garten', en: 'garden', tip: 'Always a hard g as in "go".' },
+  { l: 'H', name: 'Hah', say: 'hah', word: 'Haus', en: 'house' },
+  { l: 'I', name: 'Ih', say: 'ee', word: 'Igel', en: 'hedgehog', tip: 'Named "ee" — sounds like English E!' },
+  { l: 'J', name: 'Jott', say: 'yot', word: 'Jacke', en: 'jacket', tip: 'Sounds like English "y".' },
+  { l: 'K', name: 'Kah', say: 'kah', word: 'Katze', en: 'cat' },
+  { l: 'L', name: 'Ell', say: 'ell', word: 'Lampe', en: 'lamp' },
+  { l: 'M', name: 'Emm', say: 'emm', word: 'Maus', en: 'mouse' },
+  { l: 'N', name: 'Enn', say: 'enn', word: 'Nase', en: 'nose' },
+  { l: 'O', name: 'Oh', say: 'oh', word: 'Oma', en: 'grandma' },
+  { l: 'P', name: 'Peh', say: 'peh', word: 'Pizza', en: 'pizza' },
+  { l: 'Q', name: 'Kuh', say: 'koo', word: 'Quark', en: 'curd cheese', tip: 'Qu sounds "kv": Quark = KVARK.' },
+  { l: 'R', name: 'Err', say: 'air', word: 'Rose', en: 'rose', tip: 'Gargled at the back of the throat.' },
+  { l: 'S', name: 'Ess', say: 'ess', word: 'Sonne', en: 'sun', tip: 'Before a vowel it sounds like "z": Sonne = ZON-nuh.' },
+  { l: 'T', name: 'Teh', say: 'teh', word: 'Tisch', en: 'table' },
+  { l: 'U', name: 'Uh', say: 'oo', word: 'Uhr', en: 'clock' },
+  { l: 'V', name: 'Vau', say: 'fow', word: 'Vogel', en: 'bird', tip: 'Named "fow" and usually sounds like "f".' },
+  { l: 'W', name: 'Weh', say: 'veh', word: 'Wasser', en: 'water', tip: 'Sounds like English "v".' },
+  { l: 'X', name: 'Ix', say: 'iks', word: 'Taxi', en: 'taxi' },
+  { l: 'Y', name: 'Ypsilon', say: 'üp-see-lon', word: 'Yoga', en: 'yoga' },
+  { l: 'Z', name: 'Zett', say: 'tset', word: 'Zug', en: 'train', tip: 'Always "ts" as in "cats".' },
+  { l: 'Ä', name: 'Ä', say: 'eh (long)', word: 'Käse', en: 'cheese', tip: '"a-Umlaut": like e in "bed".' },
+  { l: 'Ö', name: 'Ö', say: 'ö', word: 'Öl', en: 'oil', tip: '"o-Umlaut": say "eh" with round lips.' },
+  { l: 'Ü', name: 'Ü', say: 'ü', word: 'Tür', en: 'door', tip: '"u-Umlaut": say "ee" with round lips.' },
+  { l: 'ß', name: 'Eszett', say: 'ess-tset', word: 'Straße', en: 'street', tip: 'A sharp double s. Capital form: ẞ (rare).' },
+];
+
+export const SPELL_WORDS = ['Haus', 'Brot', 'Name', 'Kaffee', 'Tisch', 'Hund', 'Katze', 'Buch', 'Auto', 'Milch', 'Wasser', 'Schule', 'Bahnhof', 'Lampe', 'Apfel', 'Fisch', 'Mutter', 'Vater', 'Zug', 'Jacke', 'Garten', 'Uhr', 'Sonne', 'Blume', 'Käse', 'Tür', 'Straße', 'Woche', 'Quark', 'Taxi'];
+

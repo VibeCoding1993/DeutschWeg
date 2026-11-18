@@ -1,0 +1,9 @@
+node_modules
+dist
+.venv
+server/data.db*
+server/tts-cache
+video
+tests
+*.log
+.git

@@ -1,0 +1,31 @@
+
+dist
+dist-ssr
+.DS_Store
+# Editor directories and files
+.env
+.idea
+lerna-debug.log*
+*.local
+*.log
+logs
+# Logs
+*.njsproj
+node_modules
+npm-debug.log*
+*.ntvs*
+pnpm-debug.log*
+server/data.db*
+server/tts-cache/
+*.sln
+*.suo
+*.sw?
+.venv
+video/build/
+video/build-clean/
+video/narration/
+.vscode/*
+!.vscode/extensions.json
+yarn-debug.log*
+yarn-error.log*
+video/*.mp4
